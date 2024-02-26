@@ -834,6 +834,13 @@
         "className": ""
     },
     {
+        "id": "a0ed7406eab8fa38",
+        "type": "position",
+        "name": "test",
+        "latitude": "38.8951",
+        "longitude": "-77.0364"
+    },
+    {
         "id": "9630cd6e1fd87484",
         "type": "mqtt in",
         "z": "41272f880361fa55",
@@ -971,5 +978,62 @@
                 "fccdcb49b2214d37"
             ]
         ]
+    },
+    {
+        "id": "f545cb70890be2f0",
+        "type": "smalltimer",
+        "z": "664fc4a3cb6c0f8c",
+        "name": "Small timer",
+        "position": "a0ed7406eab8fa38",
+        "startTime": "",
+        "endTime": "",
+        "startOffset": 0,
+        "endOffset": 0,
+        "topic": "",
+        "sendEmptyPayload": true,
+        "onMsg": "",
+        "onMsgType": "json",
+        "onTimeout": 1440,
+        "minimumOnTime": 0,
+        "offMsg": "0",
+        "offMsgType": "str",
+        "offTimeout": 1440,
+        "rules": [
+            {
+                "type": "include",
+                "month": "1",
+                "day": "5"
+            }
+        ],
+        "repeat": false,
+        "repeatInterval": 60,
+        "wrapMidnight": true,
+        "injectOnStartup": false,
+        "debugEnable": false,
+        "outputs": 1,
+        "timeout": 1440,
+        "x": 470,
+        "y": 380,
+        "wires": [
+            [
+                "ff1576eb7c54d746"
+            ]
+        ]
+    },
+    {
+        "id": "ff1576eb7c54d746",
+        "type": "debug",
+        "z": "664fc4a3cb6c0f8c",
+        "name": "debug 133",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 380,
+        "wires": []
     }
 ]
