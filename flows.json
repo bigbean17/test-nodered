@@ -920,8 +920,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 630,
-        "y": 320,
+        "x": 710,
+        "y": 260,
         "wires": []
     },
     {
@@ -946,7 +946,26 @@
         "payload": "",
         "payloadType": "date",
         "x": 220,
-        "y": 280,
+        "y": 260,
+        "wires": [
+            [
+                "c75d0ef1581d7399"
+            ]
+        ]
+    },
+    {
+        "id": "c75d0ef1581d7399",
+        "type": "function",
+        "z": "664fc4a3cb6c0f8c",
+        "name": "function 1",
+        "func": "console.log(msg.payload)\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 180,
         "wires": [
             [
                 "fccdcb49b2214d37"
