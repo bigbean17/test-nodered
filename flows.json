@@ -1012,7 +1012,7 @@
         "debugEnable": false,
         "outputs": 1,
         "timeout": 1440,
-        "x": 470,
+        "x": 490,
         "y": 380,
         "wires": [
             [
