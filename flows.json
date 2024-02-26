@@ -1035,5 +1035,56 @@
         "x": 750,
         "y": 380,
         "wires": []
+    },
+    {
+        "id": "bac3b7bd9dd4c093",
+        "type": "function",
+        "z": "664fc4a3cb6c0f8c",
+        "name": "function 2",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 120,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5f775eccd50138be",
+        "type": "function",
+        "z": "664fc4a3cb6c0f8c",
+        "name": "function 3",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 120,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "02c732a893004f19",
+        "type": "function",
+        "z": "664fc4a3cb6c0f8c",
+        "name": "function 4",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 120,
+        "y": 460,
+        "wires": [
+            []
+        ]
     }
 ]
